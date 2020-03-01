@@ -1,4 +1,4 @@
-package com.cuiwjava.factoryMethod;
+package com.cuiwjava.abstractFactory;
 
 //抽象工厂
 public abstract class AbstracFactory {

@@ -1,4 +1,4 @@
-package com.cuiwjava.factoryMethod;
+package com.cuiwjava.abstractFactory;
 
 public class MushRoom {
     public void printName() {

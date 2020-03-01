@@ -1,5 +1,7 @@
 package com.cuiwjava.factoryMethod;
 
+import com.cuiwjava.abstractFactory.Broom;
+
 //交通工具工厂
 public class SimpleVehicleFactory {
     public Car createCar() {

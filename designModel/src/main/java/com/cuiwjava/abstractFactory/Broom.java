@@ -1,4 +1,6 @@
-package com.cuiwjava.factoryMethod;
+package com.cuiwjava.abstractFactory;
+
+import com.cuiwjava.factoryMethod.Moveable;
 
 public class Broom implements Moveable {
     public void go() {

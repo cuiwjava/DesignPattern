@@ -1,4 +1,4 @@
-package com.cuiwjava.factoryMethod;
+package com.cuiwjava.abstractFactory;
 
 public class MagicStick {
     public void shoot() {
