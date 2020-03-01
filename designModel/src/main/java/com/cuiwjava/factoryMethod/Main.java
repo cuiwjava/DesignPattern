@@ -5,6 +5,12 @@ public class Main {
         Moveable m = new Plane();
         m.go();
         // 以上小程序中，plane、car、broom都实现了Moveable接口，当我想换一种工具，只要换一个对象就好了，不需要重新new对象了。
+        // 工厂模式
+
+        Moveable m1 = new CarFactory().create();
+        m1.go();
+        // 工厂方法
+
 
     }
 }
