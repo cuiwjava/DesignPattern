@@ -29,6 +29,18 @@ public class Main {
         MushRoom r = new MushRoom();
         r.printName();
 
+        AbstractFactory f = new ModernFactory();
 
+        Vehicle c = f.createVehicle();
+        c.go();
+        Weapon w = f.createWeapon();
+        w.shoot();
+        Food b = f.createFood();
+        b.printName();
+        /*
+        抽象工厂的结构是：
+        抽象工厂（AbstracFactory）可以生产Vehicle、Weapon、Food这三个抽象的东西。
+        具体工厂 继承抽象工厂（AbstracFactory），具体工厂生产具体的东西，汽车、AK47等，这些东西都是从抽象工厂生产的抽象的东西继承。
+         */
     }
 }
