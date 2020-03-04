@@ -1,8 +1,5 @@
 package com.cuiwjava.responsibilitychain;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * servlet中的request response过责任链
  * request过1 2 response过2 1 使用同一个责任链
