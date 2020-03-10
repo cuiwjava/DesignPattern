@@ -1,7 +1,7 @@
 package com.cuiwjava.singleton;
 
 public class Mgr05 {
-    private volatile static Mgr05 INSTANCE;
+    private static Mgr05 INSTANCE;
 
     private static Mgr05 getInstance(){
 
